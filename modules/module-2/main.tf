@@ -85,7 +85,7 @@ resource "aws_security_group" "ecs_sg" {
   }
 }
 
-# Create Database Subnet Group //change
+# Create Database Subnet Group //ccomment
 # terraform aws db subnet group
 resource "aws_db_subnet_group" "database-subnet-group" {
   name        = "database subnets"
